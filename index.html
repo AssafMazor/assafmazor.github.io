@@ -4,6 +4,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="./main.css"/>
     <link rel="stylesheet" href="./responsive.css"/>
   </head>
@@ -36,7 +42,7 @@
             <div class="info">אסף מזור
             </div>
   
-            <div class="title">.תלמיד. מפתח 
+            <div class="title">תלמיד. מפתח.
             </div>
 
           </div>
@@ -45,7 +51,7 @@
   
         </div>
   
-        <div class="bottom-arrow-wrap">
+        <div class="bottom-arrow-wrap" onclick="onScrollDownBtnClick()">
   
           <img class="bouncy-arrow" src="https://oribsn.dev/wp-content/themes/oribsn/assets/img/svg/arrow.svg">
   
@@ -135,6 +141,17 @@
    
 
     </div>
+
+    <div class="arrow-up-wrap hide">
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="feather arrow-up" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+        <line x1="12" y1="19" x2="12" y2="5"/>
+        <polyline points="5 12 12 5 19 12"/>
+      </svg>
+
+    </div>
+
+    <script src="./main.js"></script>
 
   </body>
 </html>

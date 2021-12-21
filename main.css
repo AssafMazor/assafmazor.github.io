@@ -49,7 +49,7 @@ body {
           body .welcome-page .container .description .info-wrap .title {
             font-size: 35px;
             color: #444444;
-            direction: rtl; }
+            text-align: center; }
       body .welcome-page .container .bottom-arrow-wrap {
         animation: bounce infinite 1.2s ease-in-out;
         cursor: pointer; }
@@ -135,8 +135,8 @@ body {
         body .about-me .text-col .info .git-htb-link {
           text-decoration: none;
           color: #00af9c; }
-    body .about-me .logo {
-      border-radius: 50%; }
+      body .about-me .text-col .logo {
+        border-radius: 50%; }
 
 @keyframes bounce {
   from {

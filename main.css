@@ -34,7 +34,6 @@ body {
       align-items: center;
       flex-direction: column; }
       body .welcome-page .container .description {
-        width: 983px;
         align-items: center;
         height: 100%;
         display: flex;
@@ -113,33 +112,36 @@ body {
     justify-content: center;
     padding-top: 109px;
     display: flex;
-    height: 588px; }
+    height: 588px;
+    padding-bottom: 200px; }
     body .about-me .inside {
       width: 892px;
       display: flex;
       flex-direction: column;
-      padding-right: 47px;
       justify-content: center;
       align-items: center; }
-    body .about-me .text-col {
-      width: 892px;
-      display: flex;
-      align-items: center;
-      flex-direction: column; }
-      body .about-me .text-col .title {
-        font-size: 3.125vw;
-        font-weight: 700;
-        line-height: 1.2; }
-      body .about-me .text-col .info {
-        color: #444444;
-        font-size: 1.4vw;
-        width: 504px;
-        text-align: end; }
-        body .about-me .text-col .info .git-htb-link {
-          text-decoration: none;
-          color: #00af9c; }
-      body .about-me .text-col .logo {
-        border-radius: 50%; }
+      body .about-me .inside .text-col {
+        width: 892px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; }
+        body .about-me .inside .text-col .title {
+          font-size: 3.125vw;
+          font-weight: 700;
+          line-height: 1.2;
+          padding-bottom: 18px; }
+        body .about-me .inside .text-col .info {
+          color: #444444;
+          font-size: 1.4vw;
+          width: 504px;
+          text-align: center; }
+          body .about-me .inside .text-col .info .git-htb-link {
+            text-decoration: none;
+            color: #00af9c; }
+        body .about-me .inside .text-col .logo {
+          border-radius: 50%;
+          width: 245px;
+          margin: 38px 0; }
   body .hide {
     display: none !important; }
   body .arrow-up-wrap {
